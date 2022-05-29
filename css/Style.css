@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Koulen&display=swap');
+
+
+header {
+
+    display: flex;
+    min-height: 100px;
+    background-color: rgb(255, 199, 246);
+    justify-content: space-between;
+    padding: 50px;
+    border-image-source: 10%;
+    align-items: center;
+
+}
+
+
+div{
+    text-decoration: none;
+    color: black;
+    @media (max-width:700px) {
+        header {
+            flex-direction: column;
+        }
+    
+        nav {
+            padding: 10px 0px;
+        }
+    }
+
+
+}
+.Logo {
+
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.Logo img {
+
+    height: 150px;
+    border-radius: 90px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+nav a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+
+    color: white;
+}
+
+@media (max-width:700px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 10px 0px;
+    }
+}
+
+body {
+
+    font-family: sans-serif;
+    border-image-source: 10%;
+    background-image: url(/img/Logos.png);
+    border-left: space-between;
+    background-size: 110rem;
+    align-items: center;
+    margin-inline-end: 10cm;
+    margin: 0;
+
+}
+
+
+footer {
+    display: flex;
+    min-height: 100px;
+    background-color: rgb(255, 199, 246);
+    justify-content: space-between;
+    padding: 50px;
+    border-image-source: 10%;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+
+footer img {
+    height: 150px;
+    border-radius: 90px;
+    width: 150px;
+
+
+}
+
+footer div {
+
+    float: left;
+}
+
+
+
+footer div a {
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+footer div a:hover {
+
+    color: white;
+}
